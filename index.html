@@ -13,11 +13,16 @@
     <script src="https://unpkg.com/vue@3"></script>
 
     <link rel="stylesheet" href="css/style.css">
-    
+
     <title>Vue Email List</title>
 </head>
 <body>
     
+    <div id="app">
+        <ul v-for="email in arrayEmail">
+            <li>{{email}}</li>
+        </ul>
+    </div>
 
     <script src="js/script.js"></script>
 </body>
