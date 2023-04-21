@@ -19,9 +19,15 @@
 <body>
     
     <div id="app">
-        <ul v-for="email in arrayEmail">
-            <li>{{email}}</li>
-        </ul>
+
+        <div v-if="loading">Caricamento Email</div>
+
+        <div v-else>
+            <ul v-for="email in arrayEmail">
+                <li>{{email}}</li>
+            </ul>
+        </div>
+
     </div>
 
     <script src="js/script.js"></script>

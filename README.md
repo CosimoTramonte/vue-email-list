@@ -12,5 +12,4 @@ Far comparire gli indirizzi email solamente quando sono stati tutti generati.
 - Imposto Vue.js e Axios
 - Utilizzo l'API e imposto Axios per utilizzare l'API
 - Stampo in pagina 
-- 
-- 
+-  utilizzo il loading per far comparire una scritta di caricamento
