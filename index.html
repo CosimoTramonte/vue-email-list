@@ -20,7 +20,7 @@
     
     <div id="app">
 
-        <div v-if="loading">Caricamento Email</div>
+        <div v-if="arrayEmail.length < 10">Caricamento Email</div>
 
         <div v-else>
             <ul v-for="email in arrayEmail">
